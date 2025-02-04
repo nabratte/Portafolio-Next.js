@@ -1,0 +1,10 @@
+[
+    { "id": "1", "titulo": "To-Do App", "descripcion": "Lista de tareas con React", "imagen": "/todo.jpg" },
+    { "id": "2", "titulo": "Weather App", "descripcion": "Consulta el clima en tiempo real", "imagen": "/weather.jpg" },
+    { "id": "3", "titulo": "RPG Mini", "descripcion": "Juego de rol en tiempo real", "imagen": "/rpg.jpg" },
+    { "id": "4", "titulo": "E-commerce", "descripcion": "Tienda online con React", "imagen": "/ecommerce.jpg" },
+    { "id": "5", "titulo": "Blog", "descripcion": "Blog personal con React", "imagen": "/blog.jpg" },
+    { "id": "6", "titulo": "Chat App", "descripcion": "Chat en tiempo real con React", "imagen": "/chat.jpg" },
+    { "id": "7", "titulo": "Pokedex", "descripcion": "Pokedex con React", "imagen": "/pokedex.jpg" },
+    { "id": "8", "titulo": "Calculator", "descripcion": "Calculadora con React", "imagen": "/calculator.jpg" }
+]
