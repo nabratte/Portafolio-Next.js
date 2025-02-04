@@ -10,8 +10,8 @@ const componentesApps: { [key: string]: React.ComponentType } = {
   "3": RPGMini,
 };
 
-export default function ProyectoApp({ params }: { params: { id: string } }) {
-  const { id } = params;
+export default async function ProyectoApp({ params }: { params: { id: string } }) {
+  const { id } = await params; // Esperamos la resolución de la promesa
   const proyecto = proyectos.find((p) => p.id === id);
   const ComponenteApp = componentesApps[id]; // Obtiene el componente correspondiente
 
