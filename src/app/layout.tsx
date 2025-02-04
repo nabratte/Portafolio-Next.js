@@ -9,8 +9,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <nav className="container mx-auto flex justify-between">
             <Link href="/" className="text-xl font-bold">Mi Portafolio</Link>
             <div className='flex-row items-center space-x-2'>
-              <a href="/proyectos" className="mx-2">Proyectos</a>
-              <a href="/contacto" className="mx-2">Contacto</a>
+              <Link href="/proyectos" className="mx-2">Proyectos</Link>
+              <Link href="/contacto" className="mx-2">Contacto</Link>
             </div>
           </nav>
         </header>
