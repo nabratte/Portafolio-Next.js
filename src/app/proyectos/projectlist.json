@@ -1,5 +1,5 @@
 [
     { "id": "1", "titulo": "To-Do App", "descripcion": "Lista de tareas con React", "imagen": "/To-Do.jpg" },
-    { "id": "2", "titulo": "Weather App", "descripcion": "Consulta el clima en tiempo real", "imagen": "/weather.jpg" },
-    { "id": "3", "titulo": "RPG Mini", "descripcion": "Juego de rol en tiempo real", "imagen": "/rpg.jpg" }
+    { "id": "2", "titulo": "Weather App Alert", "descripcion": "Consulta el clima en tiempo real", "imagen": "/weather.jpg" },
+    { "id": "3", "titulo": "RPG Mini", "descripcion": "Juego de rol narrativo, en construcción", "imagen": "/RPG.jpg" }
     ]

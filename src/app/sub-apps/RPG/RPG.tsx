@@ -27,7 +27,7 @@ const RPGMini: React.FC = () => {
   return (
     <div className="p-6 bg-gray-900 text-white min-h-screen flex flex-col items-center">
       <p className="mb-4">{(historia as Historia)[escenaActual].texto}</p>
-      <div className="space-y-2">
+      <div className="space-y-2 flex flex-col">
         {(historia as Historia)[escenaActual].opciones.map((opcion: Opcion, index: number) => (
           <button
             key={index}
