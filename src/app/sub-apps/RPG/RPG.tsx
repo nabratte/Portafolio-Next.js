@@ -15,7 +15,7 @@ interface Historia {
   [clave: string]: Escena;
 }
 
-import historia from "../data/historia";
+import historia from "./data/historia";
 
 const RPGMini: React.FC = () => {
   const [escenaActual, setEscenaActual] = useState<string>("inicio");
